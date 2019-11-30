@@ -12,12 +12,22 @@ public class StatecensusAnalyserTest {
             Assert.assertEquals(37,stateCensusAnalyser.readStateData());
     }
     @Test
-    public void when_Read_CSV_File_Count_Records_Should_Return_True() throws IOException, CustomException {
+    public void whenReadCSVFile_toCheckIncorrectFileName_GivesCustomException() throws IOException, CustomException {
         StatecensusAnalyser stateCensusAnalyser=new StatecensusAnalyser ();
         try {
                Assert.assertEquals(37,stateCensusAnalyser.readStateData());
         } catch (CustomException e) {
             Assert.assertEquals(e.type, CustomException.ExceptionType.NO_SUCH_FILE);
+        }
+    }
+
+    @Test
+    public void whenReadCSVFile_() throws IOException {
+        StatecensusAnalyser stateCensusAnalyser=new StatecensusAnalyser ();
+        try {
+            Assert.assertEquals(37,stateCensusAnalyser.readStateData());
+        } catch (CustomException e) {
+            Assert.assertEquals(e.type, CustomException.ExceptionType.INCORRECT_TYPE);
         }
     }
 }

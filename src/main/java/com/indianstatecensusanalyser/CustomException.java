@@ -4,8 +4,8 @@ public class CustomException extends Exception{
 
     enum ExceptionType
     {
-        ENTERED_NULL, ENTERED_EMPTY,  NO_SUCH_METHOD,NO_SUCH_FILE, NO_SUCH_CLASS,
-        OBJECT_CREATION_ISSUE, METHOD_INVOCATION_ISSUE, FIELD_SETTING_ISSUE
+        ENTERED_NULL, ENTERED_EMPTY,  NO_SUCH_METHOD,NO_SUCH_FILE, INCORRECT_TYPE,
+
     }
     ExceptionType type;
     public CustomException(ExceptionType type,String message)
