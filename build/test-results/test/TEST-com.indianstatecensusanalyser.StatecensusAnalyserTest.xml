@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.indianstatecensusanalyser.StatecensusAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-30T11:27:26" hostname="admin1-desktop" time="0.051">
+<testsuite name="com.indianstatecensusanalyser.StatecensusAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-30T12:27:07" hostname="admin1-desktop" time="0.045">
   <properties/>
-  <testcase name="whenReadCSVFile_" classname="com.indianstatecensusanalyser.StatecensusAnalyserTest" time="0.051"/>
+  <testcase name="whenReadCSVFile_toCheckIncorrectDelimeter_GivesCustomException" classname="com.indianstatecensusanalyser.StatecensusAnalyserTest" time="0.045"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

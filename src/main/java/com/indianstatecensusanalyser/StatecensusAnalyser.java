@@ -9,11 +9,12 @@ import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.NoSuchFileException;
 import java.nio.file.Paths;
+import java.util.InputMismatchException;
 import java.util.Iterator;
 
 public class StatecensusAnalyser
 {
-    private static final String SAMPLE_CSV_FILE_PATH="/home/admin1/IdeaProjects/IndianStateCensusAnalyser/StateCensusData.csv";
+    private static final String SAMPLE_CSV_FILE_PATH="/home/admin1/IdeaProjects/IndianStateCensusAnalyser/StateCode.csv";
     public int readStateData() throws IOException, CustomException {
         int count = 0;
         try {
@@ -31,11 +32,9 @@ public class StatecensusAnalyser
             }
         } catch (NoSuchFileException e) {
             throw new CustomException(CustomException.ExceptionType.NO_SUCH_FILE, "please enter proper file name");
-
-        } catch( RuntimeException e) {
-            throw new CustomException(CustomException.ExceptionType.INCORRECT_TYPE, "please enter proper type of file");
+        } catch (RuntimeException e) {
+            throw new CustomException(CustomException.ExceptionType.DATA_NOT_FOUND, "please enter proper delimeter of file");
         }
-            return count;
-
+        return count;
         }
     }

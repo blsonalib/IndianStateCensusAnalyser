@@ -20,14 +20,22 @@ public class StatecensusAnalyserTest {
             Assert.assertEquals(e.type, CustomException.ExceptionType.NO_SUCH_FILE);
         }
     }
-
     @Test
-    public void whenReadCSVFile_() throws IOException {
+    public void whenReadCSVFile_toCheckIncorrectFileType_GivesCustomException() throws IOException {
         StatecensusAnalyser stateCensusAnalyser=new StatecensusAnalyser ();
         try {
             Assert.assertEquals(37,stateCensusAnalyser.readStateData());
         } catch (CustomException e) {
             Assert.assertEquals(e.type, CustomException.ExceptionType.INCORRECT_TYPE);
+        }
+    }
+    @Test
+    public void whenReadCSVFile_toCheckIncorrectDelimeter_GivesCustomException() throws IOException {
+        StatecensusAnalyser stateCensusAnalyser=new StatecensusAnalyser ();
+        try {
+            Assert.assertEquals(37,stateCensusAnalyser.readStateData());
+        } catch (CustomException e) {
+            Assert.assertEquals(e.type, CustomException.ExceptionType.DATA_NOT_FOUND);
         }
     }
 }
