@@ -14,9 +14,14 @@ import java.util.Iterator;
 
 public class StatecensusAnalyser
 {
-    private static final String SAMPLE_CSV_FILE_PATH="/home/admin1/IdeaProjects/IndianStateCensusAnalyser/StateCode.csv";
+    private static String SAMPLE_CSV_FILE_PATH="/home/admin1/IdeaProjects/IndianStateCensusAnalyser/StateCode.csv";
+
+    public StatecensusAnalyser(String SAMPLE_CSV_FILE_PATH) {
+        this.SAMPLE_CSV_FILE_PATH = SAMPLE_CSV_FILE_PATH;
+    }
     public int readStateData() throws IOException, CustomException {
         int count = 0;
+
         try {
             Reader reader = Files.newBufferedReader(Paths.get(SAMPLE_CSV_FILE_PATH));
             CsvToBean<States> csvToBean = new CsvToBeanBuilder(reader)
@@ -30,10 +35,10 @@ public class StatecensusAnalyser
                 States state = statesIterator.next();
                 count++;
             }
-        } catch (NoSuchFileException e) {
+         } catch (NoSuchFileException e) {
             throw new CustomException(CustomException.ExceptionType.NO_SUCH_FILE, "please enter proper file name");
-        } catch (RuntimeException e) {
-            throw new CustomException(CustomException.ExceptionType.DATA_NOT_FOUND, "please enter proper delimeter of file");
+        }catch (RuntimeException e) {
+            throw new CustomException(CustomException.ExceptionType.INCORRECT_HEADER, "please enter proper header of file");
         }
         return count;
         }

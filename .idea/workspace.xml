@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f05bae3c-54b8-40a0-a8cb-8a4b9f57903d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StateCodeIndia.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -12,17 +14,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StateCode.csv" beforeDir="false" afterPath="$PROJECT_DIR$/StateCode.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/indianstatecensusanalyser/CustomException$ExceptionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/indianstatecensusanalyser/CustomException$ExceptionType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/indianstatecensusanalyser/CustomException.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/indianstatecensusanalyser/CustomException.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/indianstatecensusanalyser/StatecensusAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/indianstatecensusanalyser/StatecensusAnalyser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/indianstatecensusanalyser/StatecensusAnalyserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/indianstatecensusanalyser/StatecensusAnalyserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.indianstatecensusanalyser.StatecensusAnalyserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.indianstatecensusanalyser.StatecensusAnalyserTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.indianstatecensusanalyser.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.indianstatecensusanalyser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.indianstatecensusanalyser.StatecensusAnalyserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.indianstatecensusanalyser.StatecensusAnalyserTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.indianstatecensusanalyser.StatecensusAnalyserTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.indianstatecensusanalyser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.indianstatecensusanalyser.StatecensusAnalyserTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/CustomException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StatecensusAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StatecensusAnalyser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/indianstatecensusanalyser/StatecensusAnalyserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/indianstatecensusanalyser/StatecensusAnalyserTest.java" afterDir="false" />
@@ -37,6 +41,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,7 +93,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.StatecensusAnalyserTest.whenReadCSVFile_toCheckIncorrectDelimeter_GivesCustomException">
+  <component name="RunManager" selected="Gradle.StatecensusAnalyserTest.givenMessage_WhenWrongHeader_ShouldThrowRunTimeException">
+    <configuration name="StatecensusAnalyserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="StatecensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -100,12 +134,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StatecensusAnalyserTest.whenReadCSVFile_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StatecensusAnalyserTest.givenMessage_WhenWrongDelimer_ShouldThrowRunTimeException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.whenReadCSVFile_&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.givenMessage_WhenWrongDelimer_ShouldThrowRunTimeException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -120,12 +154,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StatecensusAnalyserTest.whenReadCSVFile_toCheckIncorrectDelimeter_GivesCustomException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StatecensusAnalyserTest.givenMessage_WhenWrongFileType_ShouldThrowRunTimeException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.whenReadCSVFile_toCheckIncorrectDelimeter_GivesCustomException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.givenMessage_WhenWrongFileType_ShouldThrowRunTimeException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -140,32 +174,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StatecensusAnalyserTest.whenReadCSVFile_toCheckIncorrectFileName_GivesCustomException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StatecensusAnalyserTest.givenMessage_WhenWrongHeader_ShouldThrowRunTimeException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.whenReadCSVFile_toCheckIncorrectFileName_GivesCustomException&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="StatecensusAnalyserTest.whenReadCSVFile_toCheckIncorrectFileType_GivesCustomException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.whenReadCSVFile_toCheckIncorrectFileType_GivesCustomException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.givenMessage_WhenWrongHeader_ShouldThrowRunTimeException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -182,10 +196,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.StatecensusAnalyserTest.whenReadCSVFile_toCheckIncorrectDelimeter_GivesCustomException" />
-        <item itemvalue="Gradle.StatecensusAnalyserTest.whenReadCSVFile_toCheckIncorrectFileType_GivesCustomException" />
-        <item itemvalue="Gradle.StatecensusAnalyserTest.whenReadCSVFile_" />
-        <item itemvalue="Gradle.StatecensusAnalyserTest.whenReadCSVFile_toCheckIncorrectFileName_GivesCustomException" />
+        <item itemvalue="Gradle.StatecensusAnalyserTest.givenMessage_WhenWrongHeader_ShouldThrowRunTimeException" />
+        <item itemvalue="Gradle.StatecensusAnalyserTest.givenMessage_WhenWrongDelimer_ShouldThrowRunTimeException" />
+        <item itemvalue="Gradle.StatecensusAnalyserTest.givenMessage_WhenWrongFileType_ShouldThrowRunTimeException" />
+        <item itemvalue="Gradle.StatecensusAnalyserTest" />
         <item itemvalue="Gradle.StatecensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches" />
       </list>
     </recent_temporary>
@@ -226,31 +240,109 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/indianstatecensusanalyser/StatecensusAnalyserTest.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="18" />
+          <line>26</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StatecensusAnalyser.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StatecensusAnalyser.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StatecensusAnalyser.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StatecensusAnalyser.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StatecensusAnalyser.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StatecensusAnalyser.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StatecensusAnalyser.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StatecensusAnalyser.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StatecensusAnalyser.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StatecensusAnalyser.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StatecensusAnalyser.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/indianstatecensusanalyser/StatecensusAnalyserTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/indianstatecensusanalyser/StatecensusAnalyserTest.java</url>
           <line>18</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StatecensusAnalyser.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="31" />
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/indianstatecensusanalyser/StatecensusAnalyserTest.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="33" />
+          <line>19</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/indianstatecensusanalyser/StatecensusAnalyserTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/indianstatecensusanalyser/StatecensusAnalyserTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/indianstatecensusanalyser/StatecensusAnalyserTest.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/indianstatecensusanalyser/StatecensusAnalyserTest.java</url>
-          <line>9</line>
-          <properties class="com.indianstatecensusanalyser.StatecensusAnalyserTest" method="checkToEnsure_NumberOfRecordsMatches">
+          <line>15</line>
+          <properties class="com.indianstatecensusanalyser.StatecensusAnalyserTest" method="whenReadCSVFile_toCheckIncorrectFileName_GivesCustomException">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="29" />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StatecensusAnalyser.java</url>
+          <line>21</line>
+          <properties class="com.indianstatecensusanalyser.StatecensusAnalyser" method="readStateData">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
