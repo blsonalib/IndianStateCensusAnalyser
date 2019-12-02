@@ -1,7 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.indianstatecensusanalyser.StatecensusAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-02T10:25:22" hostname="admin1-desktop" time="0.122">
+<testsuite name="com.indianstatecensusanalyser.StatecensusAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-02T11:42:43" hostname="admin1-desktop" time="0.149">
   <properties/>
-  <testcase name="givenMessage_WhenWrongHeader_ShouldThrowRunTimeException" classname="com.indianstatecensusanalyser.StatecensusAnalyserTest" time="0.122"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="whenReadCSVFile_toCheckIncorrectFileName_InStateAnalyser_GivesCustomException" classname="com.indianstatecensusanalyser.StatecensusAnalyserTest" time="0.149"/>
+  <system-out><![CDATA[null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+null
+0
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

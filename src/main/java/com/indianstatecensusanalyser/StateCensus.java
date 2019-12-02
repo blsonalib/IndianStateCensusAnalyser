@@ -40,19 +40,32 @@ public class StateCensus {
     }
 
     public void setState(String state) {
+
         state = state;
     }
 
     public void setPopulation(int population) {
+
         this.population = population;
     }
 
     public void setAreaInSqKm(int areaInSqKm) {
+
         areaInSqKm = areaInSqKm;
     }
 
     public void setDensityPerSqKm(int densityPerSqKm) {
+
         densityPerSqKm = densityPerSqKm;
+    }
+    @Override
+    public String toString() {
+        return "StateCensus{" +
+                "state='" + state + '\'' +
+                ", population=" + population +
+                ", areaInSqKm=" + areaInSqKm +
+                ", densityPerSqKm=" + densityPerSqKm +
+                '}';
     }
 }
 

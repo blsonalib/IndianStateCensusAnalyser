@@ -43,10 +43,10 @@ public class StatecensusAnalyser {
         return count;
     }
 
-    private static String SAMPLE_CSVCENSUS_FILE_PATH = "/home/admin1/IdeaProjects/IndianStateCensusAnalyser/StateCensusData.csv";
 
-    public int readStateCensusData() {
 
+    public int readStateCensusData() throws IOException, CustomException {
+        String SAMPLE_CSVCENSUS_FILE_PATH = "/home/admin1/IdeaProjects/IndianStateCensusAnalyser/StateCensusData.csv";
         int count = 0;
 
         try {
@@ -65,8 +65,8 @@ public class StatecensusAnalyser {
                 System.out.println(censusData.getDensityPerSqKm());
                 count++;
             }
-        } catch (IOException e) {
-            e.printStackTrace();
+        }catch (NoSuchFileException e) {
+            throw new CustomException(CustomException.ExceptionType.NO_SUCH_FILE, "please enter proper file name",e);
         }
         return count;
     }
