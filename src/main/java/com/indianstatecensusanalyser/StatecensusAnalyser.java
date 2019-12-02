@@ -67,9 +67,9 @@ public class StatecensusAnalyser {
             }
         }catch (NoSuchFileException e) {
             throw new CustomException(CustomException.ExceptionType.NO_SUCH_FILE, "please enter proper file name",e);
-        }catch( RuntimeException e) {
-            throw new CustomException(CustomException.ExceptionType.DATA_NOT_FOUND, "please enter proper delimeter of file");
+        }catch (RuntimeException e) {
+            throw new CustomException(CustomException.ExceptionType.INCORRECT_HEADER, "please enter proper header of file");
         }
         return count;
-        }
-        }
+    }
+}
