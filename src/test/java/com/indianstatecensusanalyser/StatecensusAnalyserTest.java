@@ -25,7 +25,7 @@ public class StatecensusAnalyserTest {
         @Test
      public void givenMessage_WhenWrongFileType_ShouldThrowRunTimeException() {
         try {
-           StatecensusAnalyser statecensusAnalyser= new StatecensusAnalyser("/home/admin1/Desktop/helo.java");
+           StatecensusAnalyser statecensusAnalyser= new StatecensusAnalyser("/home/admin1/IdeaProjects/IndianStateCensusAnalyser/StateCensusData.csv");
             int checkNumberOfRecords = statecensusAnalyser.readStateData();
             Assert.assertEquals(37, checkNumberOfRecords);
         } catch (CustomException | IOException e) {
@@ -40,6 +40,7 @@ public class StatecensusAnalyserTest {
             Assert.assertEquals(37, checkNumberOfRecords);
         }catch (IOException e){
         } catch (CustomException   e ) {
+            System.out.println(e.getMessage());
             Assert.assertEquals( "please enter proper delimeter of file", e.getMessage());
         }
     }
@@ -53,6 +54,13 @@ public class StatecensusAnalyserTest {
         } catch (CustomException   e ) {
             Assert.assertEquals( "please enter proper header of file", e.getMessage());
         }
+    }
+    /*----------------------------------------------------------------------------------------------*/
+    @Test
+    public void checkToEnsure_NumberOfRecordsMatchesInCensus_ShouldReturnrecords() throws CustomException, IOException {
+        StatecensusAnalyser statecensusAnalyser = new StatecensusAnalyser("/home/admin1/IdeaProjects/IndianStateCensusAnalyser/StateCensusData.csv");
+        int checkNumberOfRecords = statecensusAnalyser.readStateCensusData();
+        Assert.assertEquals(29, statecensusAnalyser.readStateCensusData());
     }
 }
 

@@ -1,9 +1,15 @@
 package com.indianstatecensusanalyser;
 
+import com.opencsv.bean.CsvBindByName;
+
 public class States {
+    @CsvBindByName(column = "SrNo")
     private String SrNo;
+    @CsvBindByName(column = "StateName")
     private String StateName;
+    @CsvBindByName(column = "TIN")
     private String TIN;
+    @CsvBindByName(column = "StateCode")
     private  String StateCode;
     public States()
     {
