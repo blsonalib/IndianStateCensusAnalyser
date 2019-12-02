@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.indianstatecensusanalyser.StatecensusAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-02T11:42:43" hostname="admin1-desktop" time="0.149">
+<testsuite name="com.indianstatecensusanalyser.StatecensusAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-02T11:51:56" hostname="admin1-desktop" time="0.135">
   <properties/>
-  <testcase name="whenReadCSVFile_toCheckIncorrectFileName_InStateAnalyser_GivesCustomException" classname="com.indianstatecensusanalyser.StatecensusAnalyserTest" time="0.149"/>
+  <testcase name="givenMessage_WhenWrongFileType_InStateCensus_ShouldThrowRunTimeException" classname="com.indianstatecensusanalyser.StatecensusAnalyserTest" time="0.135"/>
   <system-out><![CDATA[null
 0
 null
