@@ -60,7 +60,7 @@ public class StatecensusAnalyserTest {
     @Test
     public void checkToEnsure_NumberOfRecordsMatchesInCensus_ShouldReturnrecords() throws CustomException, IOException {
         StatecensusAnalyser statecensus = new StatecensusAnalyser("/home/admin1/IdeaProjects/IndianStateCensusAnalyser/StateCensusData.csv");
-        Assert.assertEquals(29, statecensus.readStateCensusData());
+        Assert.assertEquals(28, statecensus.readStateCensusData());
     }
     @Test
     public void whenReadCSVFile_toCheckIncorrectFileName_InStateAnalyser_GivesCustomException() throws IOException {
@@ -68,7 +68,7 @@ public class StatecensusAnalyserTest {
             StatecensusAnalyser stateCensus=new StatecensusAnalyser ("/home/admin1/IdeaProjects/IndianStateCensusAnalyser/StateCensusData11.csv");
            Assert.assertEquals(29, stateCensus.readStateCensusData());
         } catch (CustomException e){
-            System.out.println("Wrong file");
+            System.out.println(e.getMessage());
             Assert.assertEquals( "please enter proper file name",e.getMessage());
         }
     }
@@ -79,7 +79,7 @@ public class StatecensusAnalyserTest {
             int NumberOfRecords = statecensus.readStateCensusData();
             Assert.assertEquals(29, NumberOfRecords);
         } catch (CustomException | IOException e) {
-            System.out.println("Wrong file type");
+            System.out.println(e.getMessage());
             Assert.assertEquals("please enter proper type of file", e.getMessage());
         }
     }
