@@ -83,5 +83,16 @@ public class StatecensusAnalyserTest {
             Assert.assertEquals("please enter proper type of file", e.getMessage());
         }
     }
+    @Test
+    public void givenMessage_WhenWrongDelimer_InStateCensus_ShouldThrowRunTimeException() {
+        try {
+            StatecensusAnalyser statecensus= new StatecensusAnalyser("/home/admin1/IdeaProjects/IndianStateCensusAnalyser/StateCensusData.csv");
+            Assert.assertEquals(29, statecensus.readStateCensusData());
+        }catch (IOException e){
+        } catch (CustomException   e ) {
+            System.out.println(e.getMessage());
+            Assert.assertEquals( "please enter proper delimeter of file", e.getMessage());
+        }
+    }
 }
 
