@@ -50,7 +50,7 @@ public class StateCensus {
 
     public void setDensityPerSqKm(int densityPerSqKm) {
 
-        densityPerSqKm = densityPerSqKm;
+        this.densityPerSqKm = densityPerSqKm;
     }
     @Override
     public String toString() {

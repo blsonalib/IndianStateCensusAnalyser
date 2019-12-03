@@ -13,8 +13,9 @@ import java.util.*;
 
 public class StateCensusAnalyser {
     private static String SAMPLE_GSON_FILE_PATH="/home/admin1/IdeaProjects/IndianStateCensusAnalyser/src/test/resources/StateCensusData.json";
-            private static String SAMPLE_GSON_FILE="/home/admin1/IdeaProjects/IndianStateCensusAnalyser/src/test/resources/StateCensusData1.json";
+    private static String SAMPLE_GSON_FILE="/home/admin1/IdeaProjects/IndianStateCensusAnalyser/src/test/resources/StateCensusData1.json";
     private static String SAMPLE_CSVCENSUS_FILE_PATH = "/home/admin1/IdeaProjects/IndianStateCensusAnalyser/src/test/resources/StateCensusData.csv";
+    private static String SAMPLE_GSON_FILE_DENCITY="/home/admin1/IdeaProjects/IndianStateCensusAnalyser/src/test/resources/StateCensusForDencity.json";
     public StateCensusAnalyser(String  SAMPLE_CSVCENSUS_FILE_PATH ) {
         this. SAMPLE_CSVCENSUS_FILE_PATH= SAMPLE_CSVCENSUS_FILE_PATH;
     }
@@ -46,6 +47,8 @@ public class StateCensusAnalyser {
             writeToJson(list,SAMPLE_GSON_FILE_PATH);
             sortBYPopulationsValue(list);
             writeToJson(list,SAMPLE_GSON_FILE);
+            sortBYPopulationDensity(list);
+            writeToJson(list,SAMPLE_GSON_FILE_DENCITY);
 
 
         }   catch (NoSuchFileException e) {
@@ -67,14 +70,17 @@ public class StateCensusAnalyser {
         Comparator<StateCensus> comparator=Comparator.comparing(StateCensus::getPopulation);
         list.sort(comparator);
         System.out.println(list.toString());
-
     }
-
-
+    public void sortBYPopulationDensity(List<StateCensus> list)
+    {
+        Comparator<StateCensus> comparator=Comparator.comparing(StateCensus::getDensityPerSqKm);
+        list.sort(comparator);
+        System.out.println(list.toString());
+    }
     public void writeToJson(List<StateCensus> statesCensusList,String SAMPLE_FILE_PATH) throws IOException{
         Gson gson=new Gson();
         String json=gson.toJson(statesCensusList);
-        FileWriter fileWriter=new FileWriter(SAMPLE_GSON_FILE);
+        FileWriter fileWriter=new FileWriter( SAMPLE_GSON_FILE_DENCITY);
         fileWriter.write(json);
         fileWriter.close();
     }
