@@ -3,7 +3,6 @@ package com.indianstatecensusanalyser;
 import com.opencsv.bean.CsvBindByName;
 
 public class StateCensus {
-
     public StateCensus() {
     }
     public StateCensus(String state, int population, int areaInSqKm, int densityPerSqKm) {
@@ -12,7 +11,6 @@ public class StateCensus {
         this.areaInSqKm = areaInSqKm;
         this.densityPerSqKm = densityPerSqKm;
     }
-
     @CsvBindByName(column = "State")
     private String state;
     @CsvBindByName(column = "Population")
@@ -21,16 +19,12 @@ public class StateCensus {
     private int areaInSqKm;
     @CsvBindByName(column = "DensityPerSqKm")
     private int densityPerSqKm;
-
-
     public String getState() {
         return state;
     }
-
     public int getPopulation() {
         return population;
     }
-
     public int getAreaInSqKm() {
         return areaInSqKm;
     }
@@ -41,7 +35,7 @@ public class StateCensus {
 
     public void setState(String state) {
 
-        state = state;
+        this.state = state;
     }
 
     public void setPopulation(int population) {
@@ -66,7 +60,7 @@ public class StateCensus {
                 ", areaInSqKm=" + areaInSqKm +
                 ", densityPerSqKm=" + densityPerSqKm +
                 '}';
-    }
+}
 }
 
 
