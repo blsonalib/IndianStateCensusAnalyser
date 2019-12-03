@@ -15,7 +15,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StateCensusData.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StateCode.csv" beforeDir="false" afterPath="$PROJECT_DIR$/StateCode.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StateCode.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/StateCode.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/indianstatecensusanalyser/CustomException$ExceptionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/indianstatecensusanalyser/CustomException$ExceptionType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/indianstatecensusanalyser/StatecensusAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/indianstatecensusanalyser/StatecensusAnalyser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/indianstatecensusanalyser/StatecensusAnalyserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/indianstatecensusanalyser/StatecensusAnalyserTest.class" afterDir="false" />
@@ -96,13 +96,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.StatecensusAnalyserTest.givenMessage_WhenWrongDelimer_ShouldThrowRunTimeException">
-    <configuration name="StatecensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.StatecensusAnalyserTest.givenMessage_WhenWrongHeader_InStateCensus_ShouldThrowRunTimeException">
+    <configuration name="StatecensusAnalyserTest.checkToEnsure_NumberOfRecordsMatchesInCensus_ShouldReturnrecords" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.checkToEnsure_NumberOfRecordsMatchesInCensus_ShouldReturnrecords&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -137,12 +137,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StatecensusAnalyserTest.givenMessage_WhenWrongDelimer_ShouldThrowRunTimeException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StatecensusAnalyserTest.givenMessage_WhenWrongFileType_InStateCensus_ShouldThrowRunTimeException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.givenMessage_WhenWrongDelimer_ShouldThrowRunTimeException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.givenMessage_WhenWrongFileType_InStateCensus_ShouldThrowRunTimeException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -157,12 +157,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StatecensusAnalyserTest.givenMessage_WhenWrongFileType_ShouldThrowRunTimeException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StatecensusAnalyserTest.givenMessage_WhenWrongHeader_InStateCensus_ShouldThrowRunTimeException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.givenMessage_WhenWrongFileType_ShouldThrowRunTimeException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.givenMessage_WhenWrongHeader_InStateCensus_ShouldThrowRunTimeException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -177,12 +177,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StatecensusAnalyserTest.whenReadCSVFile_toCheckIncorrectFileName_GivesCustomException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StatecensusAnalyserTest.whenReadCSVFile_toCheckIncorrectFileName_InStateAnalyser_GivesCustomException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.whenReadCSVFile_toCheckIncorrectFileName_GivesCustomException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.whenReadCSVFile_toCheckIncorrectFileName_InStateAnalyser_GivesCustomException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -199,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.StatecensusAnalyserTest.givenMessage_WhenWrongDelimer_ShouldThrowRunTimeException" />
-        <item itemvalue="Gradle.StatecensusAnalyserTest.givenMessage_WhenWrongFileType_ShouldThrowRunTimeException" />
-        <item itemvalue="Gradle.StatecensusAnalyserTest.whenReadCSVFile_toCheckIncorrectFileName_GivesCustomException" />
-        <item itemvalue="Gradle.StatecensusAnalyserTest.checkToEnsure_NumberOfRecordsMatches" />
+        <item itemvalue="Gradle.StatecensusAnalyserTest.givenMessage_WhenWrongHeader_InStateCensus_ShouldThrowRunTimeException" />
         <item itemvalue="Gradle.StatecensusAnalyserTest.givenMessage_WhenWrongDelimer_InStateCensus_ShouldThrowRunTimeException" />
+        <item itemvalue="Gradle.StatecensusAnalyserTest.givenMessage_WhenWrongFileType_InStateCensus_ShouldThrowRunTimeException" />
+        <item itemvalue="Gradle.StatecensusAnalyserTest.whenReadCSVFile_toCheckIncorrectFileName_InStateAnalyser_GivesCustomException" />
+        <item itemvalue="Gradle.StatecensusAnalyserTest.checkToEnsure_NumberOfRecordsMatchesInCensus_ShouldReturnrecords" />
       </list>
     </recent_temporary>
   </component>
