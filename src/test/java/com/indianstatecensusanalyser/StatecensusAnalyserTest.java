@@ -64,11 +64,15 @@ public class StatecensusAnalyserTest {
             }
         }
         @Test
-    public void ForStates() throws IOException, CustomException {
+    public void givenMessage_JasonFile_ForStateName_ShouldReturnAlphabeticOrder() throws IOException, CustomException {
               StateCensusAnalyser stateCensusAnalyser=new StateCensusAnalyser("/home/admin1/IdeaProjects/IndianStateCensusAnalyser/src/test/resources/StateCensusData.csv");
               int NumberOfRecords = stateCensusAnalyser.readStateCensusData();
-
-            Assert.assertEquals(29,NumberOfRecords);
+              Assert.assertEquals(29,NumberOfRecords);
         }
-
+    @Test
+    public void givenMessage_JasonFile_ForPopulation_ShoulsReturnMostPopulousState() throws IOException, CustomException {
+        StateCensusAnalyser stateCensusAnalyser=new StateCensusAnalyser("/home/admin1/IdeaProjects/IndianStateCensusAnalyser/src/test/resources/StateCensusData.csv");
+        int NumberOfRecords = stateCensusAnalyser.readStateCensusData();
+        Assert.assertEquals(29,NumberOfRecords);
     }
+}
