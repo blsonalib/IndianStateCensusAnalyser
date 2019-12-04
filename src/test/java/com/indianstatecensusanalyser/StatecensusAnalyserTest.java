@@ -81,4 +81,10 @@ public class StatecensusAnalyserTest {
         int NumberOfRecords = stateCensusAnalyser.readStateCensusData();
         Assert.assertEquals(29,NumberOfRecords);
     }
+    @Test
+    public void givenMessage_JasonFile_ForArea_ShoulsReturnlargetStateToSmallest() throws IOException, CustomException {
+        StateCensusAnalyser stateCensusAnalyser=new StateCensusAnalyser("/home/admin1/IdeaProjects/IndianStateCensusAnalyser/src/test/resources/StateCensusData.csv");
+        int NumberOfRecords = stateCensusAnalyser.readStateCensusData();
+        Assert.assertEquals(29,NumberOfRecords);
+    }
 }

@@ -16,6 +16,7 @@ public class StateCensusAnalyser {
     private static String SAMPLE_GSON_FILE="/home/admin1/IdeaProjects/IndianStateCensusAnalyser/src/test/resources/StateCensusData1.json";
     private static String SAMPLE_CSVCENSUS_FILE_PATH = "/home/admin1/IdeaProjects/IndianStateCensusAnalyser/src/test/resources/StateCensusData.csv";
     private static String SAMPLE_GSON_FILE_DENCITY="/home/admin1/IdeaProjects/IndianStateCensusAnalyser/src/test/resources/StateCensusForDencity.json";
+    private static String SAMPLE_GSON_FILE_AREA="/home/admin1/IdeaProjects/IndianStateCensusAnalyser/src/test/resources/StateCensusDataLargestArea.json";
     public StateCensusAnalyser(String  SAMPLE_CSVCENSUS_FILE_PATH ) {
         this. SAMPLE_CSVCENSUS_FILE_PATH= SAMPLE_CSVCENSUS_FILE_PATH;
     }
@@ -49,8 +50,8 @@ public class StateCensusAnalyser {
             writeToJson(list,SAMPLE_GSON_FILE);
             sortBYPopulationDensity(list);
             writeToJson(list,SAMPLE_GSON_FILE_DENCITY);
-
-
+            sortBYLargestStateArea(list);
+            writeToJson(list, SAMPLE_GSON_FILE_AREA);
         }   catch (NoSuchFileException e) {
         throw new CustomException(CustomException.ExceptionType.NO_SUCH_FILE, "please enter proper file name");
     }catch (RuntimeException e) {
@@ -77,10 +78,17 @@ public class StateCensusAnalyser {
         list.sort(comparator);
         System.out.println(list.toString());
     }
+    public void sortBYLargestStateArea(List<StateCensus> list)
+    {
+        //Comparator<StateCensus> c = (s1,s2) -> (Integer.parseInt(s2.getAreaInSqKm())) - (Integer.parseInt(s1.getAreaInSqKm()));
+        Comparator<StateCensus> comparator=Comparator.comparing(StateCensus::getAreaInSqKm);
+        list.sort(comparator);
+        System.out.println(list.toString());
+    }
     public void writeToJson(List<StateCensus> statesCensusList,String SAMPLE_FILE_PATH) throws IOException{
         Gson gson=new Gson();
         String json=gson.toJson(statesCensusList);
-        FileWriter fileWriter=new FileWriter( SAMPLE_GSON_FILE_DENCITY);
+        FileWriter fileWriter=new FileWriter(  SAMPLE_GSON_FILE_AREA);
         fileWriter.write(json);
         fileWriter.close();
     }

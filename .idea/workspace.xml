@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f05bae3c-54b8-40a0-a8cb-8a4b9f57903d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/StateCensusForDencity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/StateCensusDataLargestArea.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -20,6 +20,7 @@
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.indianstatecensusanalyser.StatecensusAnalyserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.indianstatecensusanalyser.StatecensusAnalyserTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.indianstatecensusanalyser.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.indianstatecensusanalyser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/StateCensusForDencity.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/StateCensusForDencity.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.indianstatecensusanalyser.StatecensusAnalyserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.indianstatecensusanalyser.StatecensusAnalyserTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
@@ -99,13 +100,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.StatecensusAnalyserTest.givenMessage_JasonFile_ForPopulationDencity_ShoulsReturnPopulationDencity">
+  <component name="RunManager" selected="Gradle.StatecensusAnalyserTest.givenMessage_JasonFile_ForArea_ShoulsReturnlargetStateToSmallest">
     <configuration name="StatecensusAnalyserTest.ForStates" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.ForStates&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StatecensusAnalyserTest.givenMessage_JasonFile_ForArea_ShoulsReturnlargetStateToSmallest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.givenMessage_JasonFile_ForArea_ShoulsReturnlargetStateToSmallest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -160,26 +181,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StatecensusAnalyserTest.givenMessage_WhenWrongFileType_InStateCensus_ShouldThrowRunTimeException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.indianstatecensusanalyser.StatecensusAnalyserTest.givenMessage_WhenWrongFileType_InStateCensus_ShouldThrowRunTimeException&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="StatecensusAnalyserTest.givenMessage_WhenWrongHeader_InStateCensus_ShouldThrowRunTimeException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -202,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StatecensusAnalyserTest.givenMessage_JasonFile_ForArea_ShoulsReturnlargetStateToSmallest" />
         <item itemvalue="Gradle.StatecensusAnalyserTest.givenMessage_JasonFile_ForPopulationDencity_ShoulsReturnPopulationDencity" />
         <item itemvalue="Gradle.StatecensusAnalyserTest.ForStates" />
         <item itemvalue="Gradle.StatecensusAnalyserTest.givenMessage_WhenWrongHeader_InStateCensus_ShouldThrowRunTimeException" />
         <item itemvalue="Gradle.StatecensusAnalyserTest.givenMessage_WhenWrongDelimer_InStateCensus_ShouldThrowRunTimeException" />
-        <item itemvalue="Gradle.StatecensusAnalyserTest.givenMessage_WhenWrongFileType_InStateCensus_ShouldThrowRunTimeException" />
       </list>
     </recent_temporary>
   </component>

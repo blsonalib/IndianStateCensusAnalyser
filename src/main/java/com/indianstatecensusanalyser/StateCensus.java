@@ -45,7 +45,7 @@ public class StateCensus {
 
     public void setAreaInSqKm(int areaInSqKm) {
 
-        areaInSqKm = areaInSqKm;
+       this.areaInSqKm = areaInSqKm;
     }
 
     public void setDensityPerSqKm(int densityPerSqKm) {
