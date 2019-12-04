@@ -24,6 +24,7 @@
       <change beforePath="$PROJECT_DIR$/build/resources/test/StateCensusForDencity.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.indianstatecensusanalyser.StatecensusAnalyserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.indianstatecensusanalyser.StatecensusAnalyserTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StateCensusAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/indianstatecensusanalyser/StateCensusAnalyser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/StateCensusData.json" beforeDir="false" />
